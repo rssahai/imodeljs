@@ -1,6 +1,6 @@
 # ECMixinClass
 
-A mixin class is a special type of abstract entity class which can add properties and secondary inheritance hierarchies to an entity class. Mixin classes define concepts which span the primary entity inheritance hierarchy and they hold common property definitions. A mixin class s just a specialization of entity class that follows several rules designed to avoid issues caused my multiple inheritance:
+A mixin class is a special type of abstract entity class which can add properties and secondary inheritance hierarchies to an entity class. Mixin classes define concepts which span the primary entity inheritance hierarchy and they hold common property definitions. A mixin class is just a specialization of entity class that follows several rules designed to avoid issues caused by multiple inheritance:
 
 1. Mixins may have 0 or 1 base classes.
 2. Mixins may only have another mixin as a base class
